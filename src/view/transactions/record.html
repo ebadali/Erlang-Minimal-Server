@@ -1,0 +1,15 @@
+<table>
+<tr><td>UserId</td> <td>CurrencyFrom</td><td>CurrencyTo</td><td>AmountSell</td><td>AmountBuy</td><td>Rate</td><td>TimePlaced</td><td>OriginatingCountry</td></tr>
+{% for transact in transactions %}
+<tr><td>{{ transact.user_id }}</td>
+    <td>{{ transact.currency_from }}</td>
+	<td>{{ transact.currency_to }}</td> 
+	<td>{{ transact.amount_sell }}</td>
+	<td>{{ transact.amount_buy }}</td>
+	<td>{{ transact.rate }}</td>   
+	<td>{{ transact.time_placed }}</td>   
+	<td>{{ transact.originating_country }}</td>   
+
+</tr>
+{% endfor %}
+</table>
