@@ -41,12 +41,12 @@ None
 
 ##### Example
 
-curl --request POST \
+`curl --request POST \
   --url http://localhost:8001/transactions/record \
   --header 'cache-control: no-cache' \
   --header 'content-type: application/json' \
   --header 'postman-token: 3b6ae7eb-722c-1a96-3254-54de50090a6c' \
-  --data '{"userId": "21", "currencyFrom": "EUR", "currencyTo": "GBP", "amountSell": 1000, "amountBuy": 747.10, \n"rate": 0.87, "timePlaced" : "24-JAN-15 10:27:44", "originatingCountry" : "FR"}'
+  --data '{"userId": "21", "currencyFrom": "EUR", "currencyTo": "GBP", "amountSell": 1000, "amountBuy": 747.10, \n"rate": 0.87, "timePlaced" : "24-JAN-15 10:27:44", "originatingCountry" : "FR"}'`
 
 ##### Responce:
 * Success:
