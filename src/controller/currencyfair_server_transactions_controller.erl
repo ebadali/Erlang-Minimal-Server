@@ -20,11 +20,10 @@
 % Content: List Of Transactions ( Renders to template )
 
 % Error Response: 
-% Code: 404 : 
-% Code: 401 UNAUTHORIZED 
-% {"status":"failure","error":"invalid Rate"}
+
+% {"status":"failure","error":"invalid {Parameter}"}
 % Content: { error : "You are unauthorized to make this request." }
-% Sample Call:
+
 
 record('POST', []) ->
 	 case parse_lib:parse_transaction_payload(Req) of

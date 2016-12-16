@@ -1150,3 +1150,60 @@ have you compiled your CB application?
 2016-12-16 15:50:48.284 [info] <0.260.0> Route: "/home/list"Url
 []
 2016-12-16 15:50:48.284 [notice] <0.260.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-12-16 17:29:13.923 [info] <0.7.0> Application lager started on node 'currencyfair_server@ebads-MacBook-Pro'
+2016-12-16 17:29:13.937 [info] <0.7.0> Application crypto started on node 'currencyfair_server@ebads-MacBook-Pro'
+2016-12-16 17:29:13.954 [info] <0.7.0> Application mimetypes started on node 'currencyfair_server@ebads-MacBook-Pro'
+2016-12-16 17:29:13.969 [notice] <0.62.0>@lager_app:132 Deprecated lager_file_backend config detected, please consider updating it
+2016-12-16 17:29:14.083 [info] <0.94.0> Starting Boss in development mode....
+
+2016-12-16 17:29:14.095 [info] <0.94.0>@boss_db:start:77 Start Database Adapter boss_db_adapter_mnesia options [{adapter,mnesia},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_host,"localhost"},{db_port,1978}]
+2016-12-16 17:29:14.580 [info] <0.7.0> Application mnesia started on node 'currencyfair_server@ebads-MacBook-Pro'
+2016-12-16 17:29:14.700 [info] <0.94.0> Starting master services on 'currencyfair_server@ebads-MacBook-Pro'
+
+2016-12-16 17:29:14.731 [info] <0.7.0> Application tinymq started on node 'currencyfair_server@ebads-MacBook-Pro'
+2016-12-16 17:29:22.807 [info] <0.94.0> SSL:[]
+
+2016-12-16 17:29:22.817 [info] <0.94.0> Starting cowboy... on 'currencyfair_server@ebads-MacBook-Pro'
+
+2016-12-16 17:29:22.822 [info] <0.7.0> Application cowlib started on node 'currencyfair_server@ebads-MacBook-Pro'
+2016-12-16 17:29:22.828 [info] <0.7.0> Application ranch started on node 'currencyfair_server@ebads-MacBook-Pro'
+2016-12-16 17:29:22.855 [info] <0.7.0> Application cowboy started on node 'currencyfair_server@ebads-MacBook-Pro'
+2016-12-16 17:29:22.855 [info] <0.94.0> Starting http listener... on 0.0.0.0:8001 
+
+2016-12-16 17:29:22.968 [info] <0.94.0>@boss_load:load_all_modules:57 Loading application currencyfair_server
+2016-12-16 17:29:22.981 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ebadism/Documents/flaskserver/currencyfair_server/src/test/functional/server_tests.erl" with options [{out_dir,undefined},{include_dirs,["/Users/ebadism/Documents/flaskserver/currencyfair_server/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2016-12-16 17:29:23.031 [error] <0.94.0>@boss_load:compile_and_accumulate_errors:261 Compile Error, "src/test/functional/server_tests.erl" -> [{"/Users/ebadism/Documents/flaskserver/currencyfair_server/src/test/functional/server_tests.erl",[{15,erl_lint,illegal_expr},{15,erl_lint,illegal_expr},{15,erl_lint,illegal_expr},{15,erl_lint,illegal_expr},{15,erl_lint,illegal_expr},{16,erl_lint,illegal_expr},{16,erl_lint,illegal_expr},{16,erl_lint,illegal_expr}]}]
+2016-12-16 17:29:23.031 [error] <0.94.0>@boss_load:make_all_modules:88 Load Module Error test_modules : [{"/Users/ebadism/Documents/flaskserver/currencyfair_server/src/test/functional/server_tests.erl",[{15,erl_lint,illegal_expr},{15,erl_lint,illegal_expr},{15,erl_lint,illegal_expr},{15,erl_lint,illegal_expr},{15,erl_lint,illegal_expr},{16,erl_lint,illegal_expr},{16,erl_lint,illegal_expr},{16,erl_lint,illegal_expr}]}]
+2016-12-16 17:29:23.172 [info] <0.94.0>@boss_load:compile_view_dir_erlydtl:308 Compile Modules "src/view/lib/tag_html"  currencyfair_server_view_lib_tags
+2016-12-16 17:29:23.337 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ebadism/Documents/flaskserver/currencyfair_server/priv/init/currencyfair_server_01_news.erl" with options [{include_dirs,["/Users/ebadism/Documents/flaskserver/currencyfair_server/include"]}] 
+2016-12-16 17:29:23.351 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/ebadism/Documents/flaskserver/currencyfair_server/priv/init/my_application_util.erl" with options [{include_dirs,["/Users/ebadism/Documents/flaskserver/currencyfair_server/include"]}] 
+2016-12-16 17:29:25.137 [notice] <0.310.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath currencyfair_server
+2016-12-16 17:29:25.142 [warning] <0.6.0> lager_error_logger_h dropped 48 messages in the last second that exceeded the limit of 50 messages/sec
+2016-12-16 17:29:25.142 [info] <0.301.0> Loading routes from "/Users/ebadism/Documents/flaskserver/currencyfair_server/priv/currencyfair_server.routes" ....
+2016-12-16 17:29:25.143 [info] <0.310.0> Route: "/transactions/record"Url
+[]
+2016-12-16 17:29:25.165 [notice] <0.310.0>@boss_controller_adapter_pmod:action:91 Request Method: 'POST', Tokens: []
+2016-12-16 17:29:25.198 [info] <0.310.0> POST /transactions/record [currencyfair_server] 200 55ms
+2016-12-16 17:29:31.213 [notice] <0.312.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath currencyfair_server
+2016-12-16 17:29:31.267 [info] <0.301.0> Loading routes from "/Users/ebadism/Documents/flaskserver/currencyfair_server/priv/currencyfair_server.routes" ....
+2016-12-16 17:29:31.290 [info] <0.312.0> Route: "/transactions/record"Url
+[]
+2016-12-16 17:29:31.304 [notice] <0.312.0>@boss_controller_adapter_pmod:action:91 Request Method: 'POST', Tokens: []
+2016-12-16 17:29:31.386 [info] <0.312.0> POST /transactions/record [currencyfair_server] 200 171ms
+2016-12-16 17:32:02.164 [notice] <0.314.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath currencyfair_server
+2016-12-16 17:32:02.165 [info] <0.301.0> Loading routes from "/Users/ebadism/Documents/flaskserver/currencyfair_server/priv/currencyfair_server.routes" ....
+2016-12-16 17:32:02.166 [info] <0.314.0> Route: "/home/list"Url
+[]
+2016-12-16 17:32:02.175 [notice] <0.314.0>@boss_controller_adapter_pmod:action:91 Request Method: 'GET', Tokens: []
+2016-12-16 17:32:02.210 [info] <0.314.0> GET /home/list [currencyfair_server] 200 45ms
+2016-12-16 18:19:02.157 [notice] <0.340.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath currencyfair_server
+2016-12-16 18:19:02.160 [info] <0.301.0> Loading routes from "/Users/ebadism/Documents/flaskserver/currencyfair_server/priv/currencyfair_server.routes" ....
+2016-12-16 18:19:02.162 [info] <0.340.0> Route: "/transactions/record"Url
+[]
+2016-12-16 18:19:02.201 [info] <0.340.0>@boss_controller_compiler:compile:59 Compile controller /Users/ebadism/Documents/flaskserver/currencyfair_server/src/controller/currencyfair_server_home_controller.erl
+2016-12-16 18:19:02.201 [notice] <0.340.0>@boss_compiler:compile:47 Compile file "/Users/ebadism/Documents/flaskserver/currencyfair_server/src/controller/currencyfair_server_home_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/Users/ebadism/Documents/flaskserver/currencyfair_server/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2016-12-16 18:19:02.238 [info] <0.340.0>@boss_controller_compiler:compile:59 Compile controller /Users/ebadism/Documents/flaskserver/currencyfair_server/src/controller/currencyfair_server_transactions_controller.erl
+2016-12-16 18:19:02.238 [notice] <0.340.0>@boss_compiler:compile:47 Compile file "/Users/ebadism/Documents/flaskserver/currencyfair_server/src/controller/currencyfair_server_transactions_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/Users/ebadism/Documents/flaskserver/currencyfair_server/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2016-12-16 18:19:02.262 [notice] <0.340.0>@boss_controller_adapter_pmod:action:91 Request Method: 'POST', Tokens: []
+2016-12-16 18:19:02.264 [info] <0.340.0> POST /transactions/record [currencyfair_server] 200 104ms
+2016-12-16 19:14:10.736 [error] <0.148.0> Supervisor {<0.148.0>,poolboy_sup} had child boss_session_controller started with boss_session_controller:start_link([{name,{local,boss_session_pool}},{worker_module,boss_session_controller},{size,20},{max_overflow,...},...]) at undefined exit with reason shutdown in context shutdown_error
