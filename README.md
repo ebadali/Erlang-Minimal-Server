@@ -1,6 +1,5 @@
-# A Web Server For Currency Fair Test
-
-A Web Server Implementation based upon the specification given in the Currency Fair test.
+# A Web Server handling messages for database 
+A Web Server Implementation based upon the specification given in a test.
 
 ## Usage
 
